@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>iOS应用开发学习之旅概述</title>
+  <meta name="description" content="C语言学习笔记">
+  <meta name="author" content="Wei Wang">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="iOS应用开发学习之旅概述">
+  <meta name="twitter:description" content="C语言学习笔记">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="iOS应用开发学习之旅概述">
+  <meta property="og:description" content="C语言学习笔记">
+  
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+  
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="canonical" href="http://project.yhyangjiabin.me/2016/07/iosdevapp_summary/">
+  <link rel="alternate" type="application/rss+xml" title="iOSDev Blog" href="http://project.yhyangjiabin.me/feed.xml">
+  
+  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
+  
+</head>
+
+
+  <body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+    
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url('/assets/images/background-cover.jpg')">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/#blog" title="前往 iOSDev Blog 的主页" class="blog-button"><img src="/assets/images/avatar.jpg" width="80" alt="iOSDev Blog logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for iOSDev Blog" class="blog-button">iOSDev Blog</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">YHyangjiabin的iOS开发学习之旅</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">iOSApp开发博客</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+        
+        <p class="panel-cover__description"><a href="https://github.com/yhyangjiabin" target="_blank"></a></p>
+        
+        
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#blog" title="Visit blog" class="blog-button">Blog</a></li>
+                
+                  <li class="navigation__item"><a href="http://project.yhyangjiabin.me" target="_blank" title="My Projects">Projects</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+          
+          <div><nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  
+  <!-- Weibo -->
+  <li class="navigation__item">
+    <a href="http://weibo.com/snowazure" title="@snowazure 的微博" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
+    </a>
+  </li>
+  
+
+  
+  <!-- Github -->
+  <li class="navigation__item">
+    <a href="https://github.com/yhyangjiabin" title="@yhyangjiabin 的 Github" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+  
+  
+  
+  <!-- Twitter -->
+  <li class="navigation__item">
+    <a href="http://twitter.com/yangjiabin85041" title="@yangjiabin85041" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+  
+
+  
+  <!-- Google Plus -->
+  <li class="navigation__item">
+    <a href="https://plus.google.com/107108267983477358170" rel="author" title="Google+" target="_blank">
+      <i class='social fa fa-google-plus-square'></i>
+      <span class="label">Google Plus</span>
+    </a>
+  </li>
+  
+
+  <!-- RSS -->
+  <li class="navigation__item">
+    <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+  
+  <!-- Email -->
+  <li class="navigation__item">
+    <a href="mailto:yangjiabin850411@hotmail.com" title="Contact me">
+      <i class='social fa fa-envelope'></i>
+      <span class="label">Email</span>
+    </a>
+  </li>
+  
+
+  </ul>
+</nav>
+</div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="panel-cover--overlay cover-red"></div>
+    
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2016-07-10 14:32:24 +0800" itemprop="datePublished" class="post-meta__date date">2016-07-10</time> &#8226; <span class="post-meta__tags tags"></span>
+    </div>
+    <h1 class="post-title">iOS应用开发学习之旅概述</h1>
+  </header>
+
+  <section class="post">
+    <h2>C语言学习笔记</h2>
+
+<h3>初识C语言</h3>
+
+<p><code>macOS</code> 操作系统的使用,<code>iOS</code>初体验,第一个C语言程序,关键字,标识符,
+注释,数据;
+变量,输出函数,输入函数,如何高效学习,算术运算符,赋值运算符,
+自增自减运算符,<code>sizeof</code>运算符,逗号运算符,关系运算符,逻辑运算符,三目运算符;</p>
+
+<h3>C语言语句结构</h3>
+
+<p>流程控制简介
+<code>if</code>语句的基本概念,<code>if</code>语句的多种表现形成,<code>if</code>语句的注意点,<code>if</code>语句
+作用域;
+<code>switch</code>语句的基本使用,<code>switch</code>语句的综合使用,<code>switch</code>语句的注意点,
+<code>switch</code>语句的作用域,剪刀石头布小游戏;
+循环结构简介,<code>while</code>语句,<code>do while</code>语句,<code>for</code>语句,<code>continue</code>语句,<code>break</code>语句,循环嵌套;
+函数的基本概念,如何写一个函数,函数的形参与实参,函数的返回值,函数的注意点,Xcode运行原理,常见的
+UNIX指令,函数声明,<code>#include</code>预处理指令,多文件开发;
+进制的基本概念,计算机中进制,进制转换,原码,反码,补码,位运算,变量在内存中的存储细节,数据类型
+说明符,字符数据类型;</p>
+
+<h3>C语言数组</h3>
+
+<p>数组的基本概念,数组的多种初始化方式,数组遍历,数组内存分配的细节,数组与函数,数组的练习;
+二维数组的基本概念,二维数组的初始化,二维数组的使用场合,走出迷宫小游戏,字符串的基本概念,
+字符串的常见函数;
+指针的基本概念,指针变量的注意点,二维数组的使用场合,指向指针的指针,指针为什么要分类型,指针
+运算,指针与数组,推箱子小游戏;
+内存分区,定义的字符串的两种方式,指针数组与指向数组的指针,字符串数组,动态存储空间分配,指针函数,
+函数指针;
+全局变量与局部变量,结构体的基本概念,结构体的内存分析,结构体的多种定义方式,结构体定义的作用域,
+结构体数组,结构体指针,结构体嵌套定义,枚举;
+不带参数的宏定义,带参数的宏定义,条件编译,文件包含,<code>static</code>和<code>extern</code>的作用,t<code>ypedef</code>关键字;
+文件的概念,文件操作步骤,文件操作方法,二进制数组,文本数据的读取和写入;</p>
+
+<h3>项目综合练习</h3>
+
+<ul>
+<li>体验通过代码实现打电话和发短信</li>
+<li>C语言版迷宫小游戏设计与实现</li>
+</ul>
+
+<h3>经典面试题</h3>
+
+<ol>
+<li>计算给定日期是一年中的多少天问题,成绩判断基本的问题;</li>
+<li>使用分支语句实现剪刀石头布小游戏案例;</li>
+<li>使用循环,输出上三角形,下三角形,菱形,正三角形等图像;</li>
+<li>打印<code>9*9</code>乘法表;</li>
+<li>使用选好求水仙花数,制定范围质数等;</li>
+<li>冒泡排序,选择排序,折半查找等实现;</li>
+<li>数组逆序的方法,统计字符串的长度,比较字符串大小,字符串复制的方法,字符串中每个单词首字母
+大写实现方法;</li>
+<li>C语言内存分配,管理,销毁方法,内存泄漏查找.</li>
+</ol>
+
+  </section>
+</article>
+
+<section class="read-more">
+   
+   
+   
+   
+   <div class="read-more-item">
+       <span class="read-more-item-dim">更早的文章</span>
+       <h2 class="post-list__post-title post-title"><a href="/2016/07/day01-c-language-note/" title="link to Day01-开发前奏">Day01-开发前奏</a></h2>
+       <p class="excerpt">操作系统计算机是由CPU,主板,内存,硬盘,显示器...组成的.计算机光有这些硬件是不行的还要在计算机上安装操作系统操作系统是一个软件,直接运行在计算机设备之上1. 管理计算机硬件设备2. 协调计算机设备之间相互和谐的工作深入的了解操作系统计算机的不同的硬件负责做不同的事情.CPU: 计算内存: 临时存储数据硬盘: 永久存储数据网卡: 发送和接收网络数据声卡: 播放声音显卡: 显示图像计算机是来帮助人类做事情的.人类的角色: 指挥计算机做事情.如何&hellip;</p>
+       <div class="post-list__meta"><time datetime="2016-07-10 14:32:24 +0800" class="post-list__meta--date date">2016-07-10</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2016/07/day01-c-language-note/>继续阅读</a></div>
+   </div>
+   
+</section>
+
+<section class="post-comments">
+  
+    <div id="disqus_thread"></div>
+    <script>
+    
+    var disqus_config = function () {
+        this.page.url = "http://project.yhyangjiabin.me/2016/07/iosdevapp_summary/";
+        this.page.identifier = "/2016/07/iosdevapp_summary/";
+    };
+
+    var disqus_shortname = 'iOSDevBlog';
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>要查看<a href="http://disqus.com/?ref_noscript"> Disqus </a>评论，请启用 JavaScript</noscript>
+    
+  
+  
+  
+  
+</section>
+
+
+            <section class="footer">
+    <footer>
+    	<span class="footer__copyright">本站点采用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a></span>
+        <span class="footer__copyright">由 <a href="https://jekyllrb.com">Jekyll</a> 于 2016-07-18 生成，感谢 <a href="https://www.digitalocean.com/?refcode=30ed2d146762">Digital Ocean</a> 为本站提供稳定的 VPS 服务</span>
+        <span class="footer__copyright">本站由 <a href="http://yhyangjiabin.me">@yhyangjiabin</a> 创建，采用 <a href="https://github.com/onevcat/vno-jekyll">Vno - Jekyll</a> 作为主题，您可以在 GitHub 找到<a href="https://github.com/onevcat/OneV-s-Den">本站源码</a> - &copy; 2016</span>
+    </footer>
+</section>
+
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript" src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+
+    
+  </body>
+
+</html>

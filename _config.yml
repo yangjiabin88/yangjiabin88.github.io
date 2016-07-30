@@ -1,0 +1,53 @@
+# Basic
+title: iOSDev Blog
+subtitle: YHyangjiabin的iOS开发学习之旅
+welcome_message: <a href="https://github.com/yhyangjiabin" target="_blank"></a>
+description: iOSApp开发博客
+creator: <a href="http://yhyangjiabin.me">@yhyangjiabin</a>
+favicon: /_includes/favicon.ico
+
+url: "http://project.yhyangjiabin.me"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: plain
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Projects, url: 'http://project.yhyangjiabin.me'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: iOSDevBlog
+    # duoshuo:
+
+# Social
+social:
+    weibo: snowazure
+    github: yhyangjiabin
+    twitter: yangjiabin85041
+    gplus: 107108267983477358170
+    mail: yangjiabin850411@hotmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host

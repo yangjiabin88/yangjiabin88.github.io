@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iOSDev Blog</title>
+    <description>iOSApp开发博客</description>
+    <link>http://project.yhyangjiabin.me/</link>
+    <atom:link href="http://project.yhyangjiabin.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jul 2016 02:44:09 +0800</pubDate>
+    <lastBuildDate>Mon, 18 Jul 2016 02:44:09 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>iOS应用开发学习之旅概述</title>
+        <description>&lt;h2&gt;C语言学习笔记&lt;/h2&gt;
+
+&lt;h3&gt;初识C语言&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;macOS&lt;/code&gt; 操作系统的使用,&lt;code&gt;iOS&lt;/code&gt;初体验,第一个C语言程序,关键字,标识符,
+注释,数据;
+变量,输出函数,输入函数,如何高效学习,算术运算符,赋值运算符,
+自增自减运算符,&lt;code&gt;sizeof&lt;/code&gt;运算符,逗号运算符,关系运算符,逻辑运算符,三目运算符;&lt;/p&gt;
+
+&lt;h3&gt;C语言语句结构&lt;/h3&gt;
+
+&lt;p&gt;流程控制简介
+&lt;code&gt;if&lt;/code&gt;语句的基本概念,&lt;code&gt;if&lt;/code&gt;语句的多种表现形成,&lt;code&gt;if&lt;/code&gt;语句的注意点,&lt;code&gt;if&lt;/code&gt;语句
+作用域;
+&lt;code&gt;switch&lt;/code&gt;语句的基本使用,&lt;code&gt;switch&lt;/code&gt;语句的综合使用,&lt;code&gt;switch&lt;/code&gt;语句的注意点,
+&lt;code&gt;switch&lt;/code&gt;语句的作用域,剪刀石头布小游戏;
+循环结构简介,&lt;code&gt;while&lt;/code&gt;语句,&lt;code&gt;do while&lt;/code&gt;语句,&lt;code&gt;for&lt;/code&gt;语句,&lt;code&gt;continue&lt;/code&gt;语句,&lt;code&gt;break&lt;/code&gt;语句,循环嵌套;
+函数的基本概念,如何写一个函数,函数的形参与实参,函数的返回值,函数的注意点,Xcode运行原理,常见的
+UNIX指令,函数声明,&lt;code&gt;#include&lt;/code&gt;预处理指令,多文件开发;
+进制的基本概念,计算机中进制,进制转换,原码,反码,补码,位运算,变量在内存中的存储细节,数据类型
+说明符,字符数据类型;&lt;/p&gt;
+
+&lt;h3&gt;C语言数组&lt;/h3&gt;
+
+&lt;p&gt;数组的基本概念,数组的多种初始化方式,数组遍历,数组内存分配的细节,数组与函数,数组的练习;
+二维数组的基本概念,二维数组的初始化,二维数组的使用场合,走出迷宫小游戏,字符串的基本概念,
+字符串的常见函数;
+指针的基本概念,指针变量的注意点,二维数组的使用场合,指向指针的指针,指针为什么要分类型,指针
+运算,指针与数组,推箱子小游戏;
+内存分区,定义的字符串的两种方式,指针数组与指向数组的指针,字符串数组,动态存储空间分配,指针函数,
+函数指针;
+全局变量与局部变量,结构体的基本概念,结构体的内存分析,结构体的多种定义方式,结构体定义的作用域,
+结构体数组,结构体指针,结构体嵌套定义,枚举;
+不带参数的宏定义,带参数的宏定义,条件编译,文件包含,&lt;code&gt;static&lt;/code&gt;和&lt;code&gt;extern&lt;/code&gt;的作用,t&lt;code&gt;ypedef&lt;/code&gt;关键字;
+文件的概念,文件操作步骤,文件操作方法,二进制数组,文本数据的读取和写入;&lt;/p&gt;
+
+&lt;h3&gt;项目综合练习&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;体验通过代码实现打电话和发短信&lt;/li&gt;
+&lt;li&gt;C语言版迷宫小游戏设计与实现&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;经典面试题&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;计算给定日期是一年中的多少天问题,成绩判断基本的问题;&lt;/li&gt;
+&lt;li&gt;使用分支语句实现剪刀石头布小游戏案例;&lt;/li&gt;
+&lt;li&gt;使用循环,输出上三角形,下三角形,菱形,正三角形等图像;&lt;/li&gt;
+&lt;li&gt;打印&lt;code&gt;9*9&lt;/code&gt;乘法表;&lt;/li&gt;
+&lt;li&gt;使用选好求水仙花数,制定范围质数等;&lt;/li&gt;
+&lt;li&gt;冒泡排序,选择排序,折半查找等实现;&lt;/li&gt;
+&lt;li&gt;数组逆序的方法,统计字符串的长度,比较字符串大小,字符串复制的方法,字符串中每个单词首字母
+大写实现方法;&lt;/li&gt;
+&lt;li&gt;C语言内存分配,管理,销毁方法,内存泄漏查找.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 10 Jul 2016 14:32:24 +0800</pubDate>
+        <link>http://project.yhyangjiabin.me/2016/07/iosdevapp_summary/</link>
+        <guid isPermaLink="true">http://project.yhyangjiabin.me/2016/07/iosdevapp_summary/</guid>
+        
+        
+        <category>iOSDev</category>
+        
+      </item>
+    
+      <item>
+        <title>Day01-开发前奏</title>
+        <description>&lt;h2&gt;操作系统&lt;/h2&gt;
+
+&lt;p&gt;计算机是由CPU,主板,内存,硬盘,显示器...组成的.&lt;/p&gt;
+
+&lt;p&gt;计算机光有这些硬件是不行的&lt;/p&gt;
+
+&lt;p&gt;还要在计算机上安装操作系统&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;操作系统是一个软件,直接运行在计算机设备之上
+1. 管理计算机硬件设备
+2. 协调计算机设备之间相互和谐的工作&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;深入的了解操作系统&lt;/h2&gt;
+
+&lt;p&gt;计算机的不同的硬件负责做不同的事情.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CPU: 计算&lt;/li&gt;
+&lt;li&gt;内存: 临时存储数据&lt;/li&gt;
+&lt;li&gt;硬盘: 永久存储数据&lt;/li&gt;
+&lt;li&gt;网卡: 发送和接收网络数据&lt;/li&gt;
+&lt;li&gt;声卡: 播放声音&lt;/li&gt;
+&lt;li&gt;显卡: 显示图像&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;计算机是来帮助人类做事情的.&lt;/p&gt;
+
+&lt;p&gt;人类的角色: 指挥计算机做事情.&lt;/p&gt;
+
+&lt;p&gt;如何&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Jul 2016 14:32:24 +0800</pubDate>
+        <link>http://project.yhyangjiabin.me/2016/07/day01-c-language-note/</link>
+        <guid isPermaLink="true">http://project.yhyangjiabin.me/2016/07/day01-c-language-note/</guid>
+        
+        
+        <category>iOSDev</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World - Vno</title>
+        <description>&lt;h4&gt;What&amp;#39;s this&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/onevcat/vno-jekyll&quot;&gt;Vno Jekyll&lt;/a&gt; is a theme for &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. It is a port of my Ghost theme &lt;a href=&quot;https://github.com/onevcat/vno&quot;&gt;vno&lt;/a&gt;, which is originally developed from &lt;a href=&quot;https://github.com/daleanthony/uno&quot;&gt;Dale Anthony&amp;#39;s Uno&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4&gt;Usage&lt;/h4&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ git clone https://github.com/onevcat/vno-jekyll.git your_site
+$ cd your_site
+$ bundler install
+$ bundler exec jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Your site with &lt;code&gt;Vno Jekyll&lt;/code&gt; enabled should be accessible in &lt;a href=&quot;http://127.0.0.1:4000&quot;&gt;http://127.0.0.1:4000&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For more information about Jekyll, please visit &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&amp;#39;s site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4&gt;Configuration&lt;/h4&gt;
+
+&lt;p&gt;All configuration could be done in &lt;code&gt;_config.yml&lt;/code&gt;. Remember you need to restart to serve the page when after changing the config file. Everything in the config file should be self-explanatory.&lt;/p&gt;
+
+&lt;h4&gt;Background image and avatar&lt;/h4&gt;
+
+&lt;p&gt;You could replace the background and avatar image in &lt;code&gt;assets/images&lt;/code&gt; folder to change them.&lt;/p&gt;
+
+&lt;h4&gt;Sites using Vno&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onevcat.com&quot;&gt;My blog&lt;/a&gt; is using &lt;code&gt;Vno Jekyll&lt;/code&gt; as well, you could see how it works in real. There are some other sites using the same theme. You can find them below:&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Site Name&lt;/th&gt;
+&lt;th&gt;URL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;OneV&amp;#39;s Den&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;http://onevcat.com&quot;&gt;http://onevcat.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If you happen to be using this theme, welcome to &lt;a href=&quot;https://github.com/onevcat/vno-jekyll/pulls&quot;&gt;send me a pull request&lt;/a&gt; to add your site link here. :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4&gt;License&lt;/h4&gt;
+
+&lt;p&gt;Great thanks to &lt;a href=&quot;https://github.com/daleanthony&quot;&gt;Dale Anthony&lt;/a&gt; and his &lt;a href=&quot;https://github.com/daleanthony/uno&quot;&gt;Uno&lt;/a&gt;. Vno Jekyll is based on Uno, and contains a lot of modification on page layout, animation, font and some more things I can not remember. Vno Jekyll is followed with Uno and be licensed as &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;Creative Commons Attribution 4.0 International&lt;/a&gt;. See the link for more information.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Feb 2016 14:32:24 +0800</pubDate>
+        <link>http://project.yhyangjiabin.me/2016/02/hello-world-vno/</link>
+        <guid isPermaLink="true">http://project.yhyangjiabin.me/2016/02/hello-world-vno/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sample Post</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def print_hi(name)
+  puts &amp;quot;Hi, #{name}&amp;quot;
+end
+print_hi(&amp;#39;Tom&amp;#39;)
+#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Feb 2016 14:32:24 +0800</pubDate>
+        <link>http://project.yhyangjiabin.me/2016/02/sample-post/</link>
+        <guid isPermaLink="true">http://project.yhyangjiabin.me/2016/02/sample-post/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
